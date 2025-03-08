@@ -1,0 +1,26 @@
+{
+  "name": "ui-hacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --outfile=out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rascio/ui-hacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rascio/ui-hacks/issues"
+  },
+  "homepage": "https://github.com/rascio/ui-hacks#readme",
+  "devDependencies": {
+    "esbuild": "0.25.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
